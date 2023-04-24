@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./media/media.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <div class="hey">
+                <img class="logotype" src="./img/logo.png" alt="">
+                <span class="name">Alex Adams</span>
+            </div>
+            <span class="can">&#128473;</span>
+        </div>
+        <div class="navigate">
+            <div class="aller">
+                <ul class="all">
+                    <li class="nav">NAVIGATION</li>
+                    <li class="home active">Homepage</li>
+                    <li>Playlists</li>
+                    <li>Settings</li>
+                </ul>
+                <ul class="playlist">
+                    <li class="play">PLAYLISTS </li>
+                    <li class="liked_songs" data-playlist="playlist"> <span class="name_plylist">Liked Songs</span> <img src="./img/liked.png" alt=""></li>
+                    <div class="playlists_names_list">
+                    </div>
+                </ul>
+            </div>
+            <ul class="liked">
+                <li class="like">LIKED SONGS</li>
+                <div class="songs">
+
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div id="google" class="main_music">
+            <div class="header_main">
+                <div class="input">
+                    <img class="search_btn" src="./img/search.png" alt="">
+                    <input type="text" placeholder="Search by song name and by artist name">
+                    <div class="searched">
+                        <ul class="names">
+                        </ul>
+                    </div>
+                </div>
+                <img class="menu" src="./img/menu.png" alt="">
+                <div class="imgs">
+                    <img class="logotype" src="./img/logo.png" alt="">
+                </div>
+                <div class="premium_or_free">
+                    <span class="name">Alex Adams</span>
+                    <span class="free_or_premium">Free User</span>
+                </div>
+            </div>
+            <div class="pagination">
+                <div class="left">
+                    <h1>MORGENSTERN</h1>
+                    <h2 class="name_song">Mushup</h2>
+                    <h4 class="duration_song">02: 57</h4>
+                    <div class="circles">
+                        <div id="6" class="cir circle active_cir"></div>
+                        <div id="15" class="cir "></div>
+                        <div id="30" class="cir "></div>
+                        <div id="2" class="cir "></div>
+                        <div id="1" class="cir "></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="back_of_img"></div>
+                    <img class="image"
+                        src="./img/rock.jpeg"
+                        alt="">
+                </div>
+            </div>
+            <div class="playlists">
+                <ol class="liked_10">
+                    <div class="players">
+                        <h3>Liked Songs</h3>
+                        <div class="liked_musics_three">
+    
+                        </div>
+                        <h2 class="li">GO TO PLAYLIST</h2>
+                    </div>
+                    <div class="liked_102">
+
+                    </div>
+                </ol>
+            </div>
+            <div class="setting_page">
+                <h1>SETTINGS</h1>
+                <form name="prem_free">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" value="Alex Adams" name="full_name">
+                    <label for="">Free or Premium</label>
+                    <div class="check">
+                        <label class="toggle">
+                            <input class="toggle-checkbox" type="checkbox" name="free_prem">
+                            <div class="toggle-switch"></div>
+                        </label>
+                        <span>Free or Premium </span>
+                    </div>
+                    <span>No more settings <img src="./img/cry.png" alt=""></span>
+                    <button>Save</button>
+                </form>
+            </div>
+            <div class="playlists_page">
+                <div class="names">
+                    <h2 class="playlist_name"><<  { name of playlist }  >></h2><h3>Playlist</h3>
+                </div>
+                <h4 class="length">21 Songs</h4>
+                <ul class="songs_of_playlist">
+
+                </ul>
+            </div>
+        </div>
+        <div class="musics">
+            <div class="music_blocks">
+                <ol class="random_10">
+                    <h3>10 RANDOM SONGS</h3>
+                    <div class="random">
+
+                    </div>
+                </ol>
+                <ol class="liked_10">
+                    <h3>LIKED SONGS</h3>
+                    <div class="liked_musics_two">
+
+                    </div>
+                </ol>
+                <ol class="recently_10">
+                    <h3>RECENTLY LISTENED</h3>
+                    <div class="recently">
+
+                    </div>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <audio src=""></audio>
+    <div class="player">
+        <div class="names_song_artist">
+            <span class="song_name">Копы на хвосте</span>
+            <span class="artist_name">Morgenstern</span>
+        </div>
+        <div class="main_player">
+            <div class="top">
+                <div class="two">
+                    <span class="like_dislike">LIKE</span>
+                    <div class="lines"></div>
+                    <span class="add_playlist" >ADD TO PLAYLIST</span>
+                    <div class="lines"></div>
+                    <a href="#google" class="to_player">TO PLAYER</a>
+                </div>
+                <img class="pavtor" src="./img/pavtor.png" alt="">
+                <img class="prev" src="./img/prev.png" alt="">
+                <img class="dot_menu_player" src="./img/dot_menu.png" alt="">
+                <img class="play_pause" src="./img/play.png" alt="">
+                <img class="next" src="./img/next.png" alt="">
+                <img class="all_of" src="./img/all_track.png" alt="">
+            </div>
+            <div class="bottom">
+                <span class="currentTime">0</span>
+                <div class="progress">
+                    <div class="line"></div>
+                </div>
+                <span class="duration">133</span>
+            </div>
+        </div>
+    </div>
+    <div class="div"></div>
+
+
+    <div class="back"></div>
+    <div class="modal">
+        <div class="add">
+            <h2 >ADD TO PLAYLIST</h2>
+            <div class="playlists_names">
+                <ul>
+                    <li><span class="first">Liked Songs</span> <span class="second" >{ length songs }</span></li>
+                </ul>
+            </div>
+            <button class="create_new">Создать новый</button>
+            <form action="#" name="add_playlist">
+                <input type="text" placeholder="Name of playlist" name="name">
+                <button class="button">Save</button>
+            </form>
+        </div>
+        <span class="cancel">&#128473;</span>
+    </div>
+
+    <div class="mob_player">
+        <div class="img_box">
+            <img src="./img/dog.jpeg" class="songimg" alt="">
+        </div>
+        <div class="namesOfsongAuthor">
+            <div class="songAuthor">
+                <span class="song_name_two">{ song name }</span>
+                <span class="author_name_two"> { author name } </span>
+            </div>
+            <div class="liked_or_not">
+                <img class="likedOrNot" src="./img/heart.png" alt="">
+            </div>
+        </div>
+        <div class="m">
+            <div class="top2">
+                <img class="pavtor" src="./img/pavtor.png" alt="">
+                <img class="prev" src="./img/prev.png" alt="">
+                <img class="play_pause" src="./img/play.png" alt="">
+                <img class="next" src="./img/next.png" alt="">
+                <img class="all_of" src="./img/all_track.png" alt="">
+            </div>
+            <div class="bottom2">
+                <div class="progress2">
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div>
+        <button class="go_back"> Go back </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

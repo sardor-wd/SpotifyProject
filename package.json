@@ -1,0 +1,21 @@
+{
+    "name": "diploma",
+    "version": "2.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-sass": "^5.1.0",
+        "json-server": "^0.17.0",
+        "node-sass": "^7.0.1",
+        "sass": "^1.50.1"
+    }
+}
